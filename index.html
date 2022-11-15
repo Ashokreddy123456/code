@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .card{
+            width: 20%;
+            height: 20%;
+            border:5px solid black;
+            border-radius: 10px;
+            padding:10px;
+            margin:20px;
+            transition:none;
+        }
+        .card:nth-child(even){
+            background-color:blue;
+        }
+        .card:nth-child(odd){
+            background-color:green;
+        }
+            ]
+        .btn{
+            background-color: rgb(247, 236, 236);
+            border-radius: 10px;
+            font-style: italic;
+            font-size: 200px;
+            text-color: rgb(8, 127, 232);
+
+        }
+        .flex-box{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+          
+
+        }
+        .house{ 
+            display: flex;
+            grid-template-columns: 4fr 4fr 4fr;
+            padding-inline-start:20px;
+    
+            justify-content: center;
+        
+        }
+        footer{
+            background-color: rgb(242, 17, 17);
+            border-radius: 10px;
+            padding:10px;text-align: center;
+        }
+        .card:hover{
+            background-color: rgb(242, 17, 17);
+            transform: rotate(0deg);
+        }
+        .names{
+            text-align: center;
+            font-size: 100px;
+            font-weight: bold;
+            color: rgb(21, 186, 27);
+            background-color: rgb(16, 15, 15);
+
+        }
+        .ashok{
+            text-transform: capitalize;
+        }
+        .span{
+            float: right;
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+        h3{
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: capitalize;
+            text-align:center;
+        }
+        .terms{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        img{
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+        <div class="ashok">
+            <header class="names"> PAR's food mart</header>
+        </div>    
+        <h3>harama shop ko swagath hii</h3>
+        <div class="span">
+            <a href="https://www.pizzahut.com"><span class="bi bi-person-fill"></span></a>
+            <a href="https:www.amazon.com"><span class="bi bi-cart4"></span></a>
+            <span class="bi bi-recycle"></span>
+            <span class="bi bi-heart-fill"></span>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="flex-box">
+        <div class="card">
+            <a href="https://www.licious.in/seafood"><img src="../images/fish.jpg" height="200" width="300" alt="fish"></a>
+            <h3>fish roast</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://www.licious.in/seafood">Order now</a></button>
+        </div>
+        <div class="card">
+            <a href="https://pizzaonline.dominos.co.in/menu"><img src="../images/pizza.jpg" height="200" width="300" alt=""></a>
+            <h3>pizza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://pizzaonline.dominos.co.in/menu">Order now</a></button>
+        </div>
+        <div class="card">
+            <a href="https://online.kfc.co.in/menu/burgers"><img src="../images/burger.jpg" height="200" width="300" alt=""></a>
+            <h3>burger</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://www.kfc.com">Order now</a></button>
+        </div>
+    </div>
+    <div class="flex-box">
+        <div class="card">
+            <a href="https://ministryofcurry.com/chicken-kathi-rolls/"><img src="../images/roll.jpg" height="200" width="300" alt=""></a>
+            <h3>Chicken roll</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://ministryofcurry.com/chicken-kathi-rolls/">Order now</a></button>
+        </div>
+        <div class="card">
+            <a href="https://www.noodles.com/"><img src="../images/noodiles.jpg" height="200" width="300" alt=""></a>
+            <h3>Noodiles</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://www.noodles.com/">Order now</a></button>
+        </div>
+        <div class="card">
+            <a href="https://www.indianhealthyrecipes.com/samosa-recipe-make-samosa/"><img src="../images/samosa.jpg" height="200" width="300" alt=""></a>
+            <h3>Samosa</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://www.indianhealthyrecipes.com/samosa-recipe-make-samosa/">Order now</button></a>
+        </div>
+    </div>
+    <div class="flex-box">
+        <div class="card">
+            <a href="indianhealthyrecipes.com/masala-pasta/"><img src="../images/pasta.jpg" height="200" width="300" alt=""></a>
+            <h3>Pasta</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="indianhealthyrecipes.com/masala-pasta/">Order now</a></button>
+        </div>
+        <div class="card">
+            <a href="https://www.indianhealthyrecipes.com/sandwich-recipes/"><img src="../images/sandweg.jpg" height="200" width="300" alt=""></a>
+            <h3>Sandwich</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://www.indianhealthyrecipes.com/sandwich-recipes/">Order now</a></button>
+        </div>
+        <div class="card">
+        <a href="https://www.indianhealthyrecipes.com/naan/"><img src="../images/butternon.jpg" height="200" width="300" alt=""></a>
+            <h3>Butternon</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, itaque aperiam accusamus vitae in totam id repudiandae nihil. Cum fuga hic pariatur ducimus voluptas reprehenderit velit ad doloribus expedita accusantium.</p>
+            <button type="button" class="btn"><a href="https://www.indianhealthyrecipes.com/naan/">Order now</a></button>
+        </div>
+    </div>
+    <p class="terms">terms and conditions are applied</p>
+    <p1>&copy; copy rights under 2022</p1>
+    <footer>disc</footer>
+    <div class="house">
+      <a href="https://www.google.com">
+        <ol>
+            <li>names</li>
+            <li>food</li>
+            <li>food</li>
+        </ol>
+       
+      </a>
+    </div>
+</body>
+</html>
